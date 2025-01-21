@@ -61,7 +61,7 @@ CONTINUOUS_FEATURES = [
 # Function to collect user input dynamically
 def get_user_input():
     """Collects categorical and continuous inputs from the user."""
-    st.sidebar.header("User Input Features")
+    st.sidebar.header("Input User's Vehicle Features")
 
     # Collect categorical inputs
     categorical_input = {}
